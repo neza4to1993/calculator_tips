@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <title>Tip calculator app</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+</head>
+<body class="body">
+	<div class="body__container">
+		<div class="container__mainwindow">
+			<div class="container__header">
+				<div class="container__item">
+					<img src="./img/logo.svg" alt="logo">
+				</div>
+			</div>
+			<div class="mainwindow__contentleft">
+			<div class="mainwindow__payment">
+				<span class="payment__title">Bill</span>
+				<div class="payment__content">
+					<img class="payment__icon" src="./img/icon-dollar.svg" alt="dollar">
+					<input class="payment__input" placeholder ="0" type="number">
+				</div>
+				
+			</div>
+			<div class="mainwindow__tips">
+				<span class="tips__title">Select Tip %</span>
+				<div class="tips__content">
+					<button class="tips__item" id="five">5%</button>
+					<button class="tips__item" id="ten">10%</button>
+					<button class="tips__item" id="fifteen">15%</button>
+					<button class="tips__item" id="twentyfive">25%</button>
+					<button class="tips__item" id="fifty">50%</button>
+					<button class="tips__item" id="Custom">Custom</button>
+				</div>
+				
+			</div>
+			<div class="mainwindow__people">
+				<span class="people__title">Number of People</span>
+				<div class="people__content">
+					<img class="people__icon" src="./img/icon-person.svg" alt="dollar">
+					<input class="people__input" placeholder ="0" type="number">
+				</div>
+				
+			</div>
+			</div>
+
+			<div class="mainwindow__contentright">
+				<div class="mainwindow__row">
+					<div class="row__title"><span>Tip Amount</span> <br> / person</div>
+					<div class="row__amount">$<span>0.00</span></div>
+				</div>
+				<div class="mainwindow__row">
+					<div class="row__title"><span>Total</span> <br> / person</div>
+					<div class="row__amount">$<span>0.00</span></div>
+				</div>
+				<div class="mainwindow__button">
+					<button id="btnReset">reset</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<footer>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</footer>
+</body>
+</html>
