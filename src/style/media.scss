@@ -1,0 +1,210 @@
+@media screen and (max-width: 860px) {
+	.container__mainwindow{
+		.mainwindow__contentleft{
+					max-width: 250px;
+						.mainwindow__payment {
+							.payment__title {
+							}
+							.payment__content{
+								.payment__input {
+									padding: 5px;
+									margin: 5px 0px;
+									}
+								.payment__icon {
+								}
+							}
+						}
+						
+	
+						.mainwindow__tips {
+							margin: 0px 0px 20px 0px;
+								.tips__title {
+								}
+							.tips__content{
+								.tips__item{
+									width: 90px;
+								}
+								#Custom{
+								}
+							}
+						}
+						.mainwindow__people {
+							.people__title {
+							}
+							.people__content{
+								.people__input {
+									padding: 5px;
+								}
+								.people__icon {
+								}
+							}
+						}
+					}
+		
+	
+		.mainwindow__contentright{
+			max-width: 450px;
+			margin: 0px 0px 0px 100px;
+			padding: 0px 0px 0px 0px;
+				.mainwindow__row{
+						.row__title {
+						}
+						.row__title span{
+						}
+						.row__amount {
+						}
+				}
+				.mainwindow__button button{
+					margin: 0px 0px 0px 30px;
+				}
+				
+		}
+	
+	
+	}
+}
+@media screen and (max-width: 780px) {
+	.container__mainwindow{
+		max-width: 575px;
+		flex-direction: column;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		bottom:calc(50% - 417px);
+		.container__header{
+			top: -10%;
+		}
+		.mainwindow__contentleft{
+					max-width: 250px;
+					margin-left: calc(50% - 150px);
+						.mainwindow__payment {
+							.payment__title {
+							}
+							.payment__content{
+								.payment__input {
+									padding: 5px;
+									margin: 5px 0px;
+									}
+								.payment__icon {
+								}
+							}
+						}
+						
+	
+						.mainwindow__tips {
+							margin: 0px 0px 20px 0px;
+								.tips__title {
+								}
+							.tips__content{
+								.tips__item{
+									width: 90px;
+								}
+								#Custom{
+								}
+							}
+						}
+						.mainwindow__people {
+							.people__title {
+							}
+							.people__content{
+								.people__input {
+									padding: 5px;
+								}
+								.people__icon {
+								}
+							}
+						}
+					}
+		.mainwindow__contentright{
+			max-width: 450px;
+			margin-left: calc(50% - 200px);
+			padding: 0px 0px 0px 0px;
+				.mainwindow__row{
+						.row__title {
+						}
+						.row__title span{
+						}
+						.row__amount {
+						}
+				}
+				.mainwindow__button button{
+					margin-left: calc(50% - 150px);
+				}
+				
+		}
+	
+	
+	}
+}
+@media screen and (max-width: 480px) {
+	body{
+		padding: 10px !important;
+	}
+	.container__mainwindow{
+		max-width: 100vw !important;
+		padding: 10px 0px 0px 0px;
+		.container__header{
+		}
+		.mainwindow__contentleft{
+					max-width: 250px;
+					margin-left: calc(50% - 150px);
+						.mainwindow__payment {
+							margin-bottom: 10px;
+							.payment__title {
+							}
+							.payment__content{
+								.payment__input {
+									}
+								.payment__icon {
+								}
+							}
+						}
+						
+	
+						.mainwindow__tips {
+								.tips__title {
+								}
+							.tips__content{
+								.tips__item{
+								}
+								#Custom{
+								}
+							}
+						}
+						.mainwindow__people {
+							.people__title {
+							}
+							.people__content{
+								.people__input {
+								}
+								.people__icon {
+								}
+							}
+						}
+					}
+		.mainwindow__contentright{
+			max-width: 350px;
+			margin-left: calc(50% - 175px);
+			padding: 0px 0px 0px 0px;
+				.mainwindow__row{
+						.row__title {
+						}
+						.row__title span{
+						}
+						.row__amount {
+						}
+				}
+				.mainwindow__button button{
+					margin-left: calc(50% - 150px);
+				}
+				
+		}
+	
+	
+	}
+}
+@media screen and (max-width: 375px) {
+	body{
+		padding: 0 !important;
+	}
+}
