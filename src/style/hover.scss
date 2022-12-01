@@ -1,0 +1,75 @@
+.container__mainwindow{
+	.container__header{
+	}
+	.mainwindow__contentleft{
+		.mainwindow__payment {
+			.payment__title {
+			}
+			.payment__content{
+			.payment__input:hover {
+				transition-duration: 0.2s;
+				border: 2px solid rgb(34,194,172);
+			}
+			.payment__input:focus {
+				transition-duration: 0.2s;
+				border: 2px solid rgb(34,194,172);
+			}
+			.payment__icon {
+			}
+		}
+	}
+		.mainwindow__tips {
+			.tips__title {
+			}
+			.tips__content{
+			.tips__item:hover{
+				background-color: rgb(159,232,223);
+				color: rgb(0,71,75);
+				transition-duration: 0.8s;
+				box-shadow: 0 3px 0px rgb(130,191,184);
+		}
+			#Custom:hover{
+				border: 2px solid rgb(34,194,172);
+				margin-top: 3px;
+				padding: 10px 9px 6px 10px;
+				transition-duration: 0s;
+			}
+			#Custom:focus{
+				border: 2px solid rgb(34,194,172);
+				margin-top: 3px;
+				padding: 10px 9px 6px 10px;
+			}
+		}
+	}
+		.mainwindow__people {
+			.people__title {
+			}
+			.people__content{
+			.people__input:hover {
+				transition-duration: 0.2s;
+				border: 2px solid rgb(34,194,172);
+			}
+			.people__icon {
+			}
+		}
+	}
+}
+	.mainwindow__contentright{
+	.mainwindow__row{
+		.row__title {
+		}
+		.row__title span{
+		}
+		.row__amount {
+		}
+	}
+	.mainwindow__button button:hover{
+		transition-duration: 0.8s;
+		background-color: rgb(159,232,223);
+		opacity: 1;
+		box-shadow: 0 3px 0px rgb(146,211,203);
+	}
+	}
+
+
+}
