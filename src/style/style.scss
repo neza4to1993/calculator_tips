@@ -64,7 +64,7 @@
 							display: grid;
 							grid-template-columns: 1fr 1fr 1fr;
 							grid-template-rows: 1fr 1fr;
-							.tips__item{
+							.tips__item {
 								box-shadow: 0 3px 0px rgb(0,34,36);
 								font-size: 24px;
 								color: #fff;
@@ -74,6 +74,17 @@
 								max-width: 110px;
 								padding: 10px;
 							}
+							.tips__input{
+								box-shadow: 0 3px 0px rgb(0,34,36);
+								font-size: 24px;
+								color: #fff;
+								margin: 7px;
+								background-color: rgb(0,71,75);
+								border-radius: 8px;
+								max-width: 110px;
+								padding: 10px;
+							}
+							
 							#Custom{
 								box-shadow: none;
 								background-color: rgb(243,248,251);
@@ -128,17 +139,21 @@
 		margin: 0px 0px 0px 50px;
 		padding: 10px;
 			.mainwindow__row{
+				overflow:hidden;
 				display: flex;
 				justify-content: space-between;
-				max-width: 100%;
+				width: 380px;
 				max-height: 100px;
 				padding: 30px;
 					.row__title {
-						white-space: nowrap;
+						max-width: 70px;
 						padding: 0px 0px 0px 0px;
-						margin-right: 50px;
+						margin-right: 15px;
 						color: rgb(103,153,158);
 						font-size: 14px;
+					}
+					.row__text{
+						white-space: nowrap;
 					}
 					.row__title span{
 						display: inline-block;
@@ -147,6 +162,7 @@
 						font-size: 18px;
 					}
 					.row__amount {
+						word-wrap: break-word;
 						font-size: 48px;
 						color: rgb(34,193,169);
 					}
