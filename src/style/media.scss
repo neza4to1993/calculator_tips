@@ -249,7 +249,7 @@
 		padding: 0 !important;
 	}
 	.body__container{
-		width: 100%;
+		width: 190px;
 		height: 270px;
 	}
 	.container__header{
@@ -257,7 +257,7 @@
 		}
 	}
 	.container__mainwindow{
-		width: 380px;
+		width: 368px;
 	}
 	.mainwindow__contentleft{
 											// margin-left: calc(50% - 157px) !important;
@@ -273,9 +273,12 @@
 			}
 		}
 		.mainwindow__contentright{
-			width: 395px;
+			width: 340px;
+			margin: 0 auto !important;
 			height: 230px !important;
+
 				.mainwindow__row{
+					max-width: 340px !important;
 						.row__title {
 						}
 						.row__title span{
@@ -283,6 +286,9 @@
 						.row__amount {
 							overflow: hidden;
 							white-space: nowrap;
+						}
+						.total{
+							overflow-x: scroll;
 						}
 				}
 				.mainwindow__button button{
