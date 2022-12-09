@@ -14,6 +14,14 @@ const btnReset = document.getElementById('btnReset');
 
 
 function addToAmount() {
+	this.classList.toggle("tipsopen");
+	this.addEventListener('focusout', () => this.classList.remove("tipsopen"));
+	allTips.forEach(element => {
+		if (element.classList.contains('tipsopen')){
+		}else{
+			element.classList.remove("tipsopen");
+		}
+	});
 	addingTotal(this);
 }
 
@@ -48,19 +56,30 @@ function checkPercent() {
 
 	function addingPeopleTotal() {
 		maxLengthCheck(people);
-			people.addEventListener("focusout", () =>  {
-				if (people.value === "" || people.value === "0"){
-					alert("Specify the number of people !");
-					people.value = "1";
+		const title = document.querySelector('.title__err');
+		people.addEventListener('focusout', () => {
+			if (people.value === "" || people.value === "0"){
+			removeAll();
+			}
+			title.classList.remove('err');
+			this.classList.remove('peopIn');
+			})
+		if (people.value === "" || people.value === "0"){
+			title.innerText = `Can't be zero`;
+			title.classList.add('err');
+			this.classList.add('peopIn');
+		}else{
+			title.textContent = "";
+			title.classList.remove('err');
+			this.classList.remove('peopIn');
+			if (checkSum.value !== "" & people.value !== ""){
+				const peopple = Number(this.value);
+					resultAmount.innerText = (Math.ceil(percent) / peopple).toFixed(2); // push Tip Amount 
+					totalSum.innerText = ((checkSumm + percent)  / peopple).toFixed(2); // push Total 
 				}
-			});
-		if(checkSum.value !== "" & people.value !== ""){
-		const peopple = Number(this.value);
-			resultAmount.innerText = (Math.ceil(percent) / peopple).toFixed(2); // push Tip Amount 
-			totalSum.innerText = ((checkSumm + percent)  / peopple).toFixed(2); // push Total 
+			}
 
 		}
-	}
 	}
 
 function addingTotal(val) {

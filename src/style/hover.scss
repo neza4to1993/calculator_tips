@@ -5,12 +5,12 @@
 		.mainwindow__payment {
 			.payment__title {
 			}
+			.err{
+				transition-duration: 0.5s;
+				border: 2px solid red;
+			}
 			.payment__content{
 			.payment__input:hover {
-				transition-duration: 0.2s;
-				border: 2px solid rgb(34,194,172);
-			}
-			.payment__input:focus {
 				transition-duration: 0.2s;
 				border: 2px solid rgb(34,194,172);
 			}
@@ -33,11 +33,6 @@
 				margin-top: 3px;
 				padding: 10px 9px 6px 10px;
 				transition-duration: 0s;
-			}
-			#Custom:focus{
-				border: 2px solid rgb(34,194,172);
-				margin-top: 3px;
-				padding: 10px 9px 6px 10px;
 			}
 		}
 	}

@@ -261,6 +261,21 @@
 				}
 			}
 		}
+		.mainwindow__contentright{
+				.mainwindow__row{
+						.row__title {
+						}
+						.row__title span{
+						}
+						.row__amount {
+							overflow: hidden;
+							white-space: nowrap;
+						}
+				}
+				.mainwindow__button button{
+				}
+				
+		}
 }
 @media (orientation:landscape) and (max-height: 450px) {
 	body{
@@ -350,6 +365,7 @@
 						.row__title span{
 						}
 						.row__amount {
+							overflow: hidden;
 						}
 				}
 				.mainwindow__button button{

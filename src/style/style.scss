@@ -73,6 +73,12 @@
 								max-width: 110px;
 								padding: 10px;
 							}
+							.tipsopen{
+								color: rgb(0,71,75);
+								transition-duration: 0.8s;
+								box-shadow: 0 3px 0px rgb(130,191,184);
+								background-color: rgb(159,232,223);
+							}
 							.tips__input{
 								box-shadow: 0 3px 0px rgb(0,34,36);
 								font-size: 24px;
@@ -101,6 +107,14 @@
 						.people__title {
 							font-size: 18px;
 							opacity: 0.7;
+							.title__err{
+								display: none;
+							}
+							.err{
+								display: inline-block;
+								color: red !important;
+								margin-left: 19px;
+							}
 						}
 						.people__content{
 							position: relative;

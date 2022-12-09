@@ -13,9 +13,13 @@ box-shadow: 0 1px 0px rgb(130,191,184);
 color: red;
 margin-top: 3px;
 padding: 10px 9px 6px 10px;
-transition-duration: 0s;
+border: 2px solid rgb(34,194,172);
 }
 .people__input:focus {
 transition-duration: 0.2s;
 border: 2px solid rgb(34,194,172);
+}
+.peopIn:focus{
+	transition-duration: 0.2s;
+	border: 2px solid red !important;
 }
